@@ -8,3 +8,39 @@ If one wants to replicate the project’s results from scratch, ‘Preprocessing
 
 
 In order to correctly set up the notebooks’ environment, it is necessary to mount drive and set the working directory to the main project folder ‘TM&S_Baghrous_Iarocci_Ferrari’. This can be done by changing the path specified in the os.chdir() that can be found at the beginning of each notebook after the libraries and packages installation and import.
+
+
+
+```
+├── Preprocessing
+│   ├── Preprocessing.ipynb
+│   └── wikiall_processed.csv
+├── README.txt
+├── Report.pdf
+├── Text Summarization
+│   ├── Summarization.ipynb
+│   ├── summary_1k_red1.csv
+│   ├── summary_1k_red2.csv
+│   ├── summary_1k_red3.csv
+│   └── wikisep_stats.csv
+├── Topic Modeling
+│   ├── LDA model
+│   │   ├── bow_corpus.pkl
+│   │   ├── dictionary12_.dict
+│   │   ├── modello_lda(8_topics).lda
+│   │   ├── modello_lda(8_topics).lda.expElogbeta.npy
+│   │   ├── modello_lda(8_topics).lda.id2word
+│   │   ├── modello_lda(8_topics).lda.state
+│   │   ├── modello_lda12_save.lda
+│   │   ├── modello_lda12_save.lda.expElogbeta.npy
+│   │   ├── modello_lda12_save.lda.id2word
+│   │   ├── modello_lda12_save.lda.state
+│   │   └── risultati_metriche12.csv
+│   ├── LSA model
+│   │   ├── LSAmodel
+│   │   └── LSAmodel.projection
+│   └── Topic Modeling.ipynb
+└── tms_data
+    ├── wikihowAll.csv
+    └── wikihowSep.csv
+```
